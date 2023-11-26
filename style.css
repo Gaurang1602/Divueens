@@ -47,11 +47,11 @@ b{
     width: 180px;
    
 }
-.products:hover{
+/* .products:hover{
     margin: 10px;
     transform: scale(1.05);
     transition: all 0.3s ease-out;
-}
+} */
 
 .productsline2{
     margin-top:40px;
@@ -121,7 +121,7 @@ b{
     text-align: center;
 } */
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
 
     .footer{
         margin-top: 180px;
@@ -132,4 +132,4 @@ b{
         padding-left: 50%;
         height: auto;
     }
-}
+} */
