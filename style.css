@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+b{
+    font-weight: 600;
+}
+.Quantity{
+    color: grey;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.hotlist{
+    font-weight: 800;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 50px;
+}
+.page4{
+    height: 100vh;
+}
+.productsline1{
+    display: flex;
+    gap:30px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    overflow-x: auto;
+
+}
+.productsline1::-webkit-scrollbar {
+    display: none;
+}
+
+
+.products{
+    border: 1px solid gray;
+    border-radius: 24px;
+    padding:20px;
+    width: 180px;
+   
+}
+.products:hover{
+    margin: 10px;
+    transform: scale(1.05);
+    transition: all 0.3s ease-out;
+}
+
+.productsline2{
+    margin-top:40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .products{
+        width: 300px;
+    }
+
+    .img{
+        width: 250px;
+       height: 250px;
+    }
+    .img img{
+        height: 100%;
+        width:auto;
+    }
+}
+.footer{
+    display: grid;
+    margin-top: 80px;
+    height: 40vh;
+    width: 100vw;
+    background-color: palevioletred;
+    /* display: flex; */
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+    
+    /* align-items: center; */
+}
+.footer .links{
+    margin-top: 40px;
+}
+.footer p{
+    padding-bottom: 8px;
+    
+}
+.final{
+    background-color: palevioletred;
+    /* padding: 1px; */
+}
+/* p{
+    padding-bottom: 1px;
+} */
+/* .footer{
+    margin-top: 100px;
+    height: 40vh;
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+} */
+
+@media only screen and (max-width: 800px) {
+
+    .footer{
+        margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        padding-left: 50%;
+        height: auto;
+    }
+}
